@@ -56,16 +56,14 @@
     * confirm that Nextcloud is working correctly
       
 * Install and configure prerequisites
-  * inotify-tools
-    ```inotify``` will be used to monitor the upload folder for new files
+  * ```inotify-tools``` will be used to monitor the upload folder for new files
     [still untested]
     
     ```
     apt install inotify-tools
     ```
     
-  * enscript
-    ```enscript``` will be used to create postscript containing the text to be stamped on uploads
+  * ```enscript``` will be used to create postscript containing the text to be stamped on uploads
     
     ```
     apt install enscript
@@ -92,7 +90,7 @@
     
     ```
     # install pdftk
-    snap install pdftkIN=/media/data/mmccarn/files/Temp/Techsoup\ 2017-07-17.pdf
+    snap install pdftk
     
     # posts seen online indicate this is needed to access files outside of /home...
     sudo ln -fs /snap/pdftk/current/usr/bin/pdftk /usr/bin/pdftk
